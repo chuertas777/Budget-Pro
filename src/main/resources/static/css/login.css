@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+  font-family: "Roboto";
+}
+
+body {
+  background: url(../img/home.png) no-repeat;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 0 12%;
+  padding-top: 8%;
+  padding-bottom: 6%;
+}
+
+.main img {
+  position: absolute;
+  top: 80px;
+  right: 310px;
+
+  z-index: 1;
+}
+
+.ppal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  height: 25rem;
+  width: 20rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ppal .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.form input,
+a {
+  margin: 10px;
+}
+
+.form #input1 {
+  margin-top: 30px;
+  border: none;
+  border-top: 1.8px solid rgb(56, 56, 56);
+  border-bottom: 1.8px solid rgb(56, 56, 56);
+  padding: 20px;
+  font-size: 16px;
+}
+
+.form #input2 {
+  margin-top: 0;
+  border: none;
+  border-bottom: 1.8px solid rgb(56, 56, 56);
+  padding: 20px;
+  font-size: 16px;
+}
+
+.form a {
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto";
+  display: flex;
+  margin-top: 0px;
+  text-decoration: none;
+  outline: none;
+  background-color: #2871af;
+  width: 93%;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.form a:hover {
+  background-color: #377ab4;
+}
+
+.horizontal-line {
+  width: 70%; /* Ancho de la línea (puedes ajustarlo según tus necesidades) */
+  height: 1.2px; /* Grosor de la línea (puedes ajustarlo según tus necesidades) */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.384
+  ); /* Color de la línea (puedes cambiarlo a tu preferencia) */
+  /* Opcional: Agregar márgenes para posicionar la línea según tus necesidades */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot a {
+  text-decoration: none;
+  outline: none;
+  color: #064a81;
+  font-weight: 700;
+  margin: 6px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot a:hover {
+  text-decoration: underline;
+}
